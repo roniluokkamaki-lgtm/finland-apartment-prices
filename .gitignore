@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.env
+
+# Data — raw files can be large; keep out of git
+data/raw/
+
+# Trained model artefacts
+models/*.joblib
+models/*.pkl
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

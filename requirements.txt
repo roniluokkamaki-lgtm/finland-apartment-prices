@@ -1,0 +1,19 @@
+# Data
+requests
+pandas
+numpy
+
+# Analysis & modelling
+scikit-learn
+xgboost
+lightgbm
+matplotlib
+seaborn
+joblib
+
+# UI
+streamlit
+
+# Utilities
+python-dotenv
+jupyter
