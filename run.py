@@ -12,7 +12,8 @@ URL = "http://localhost:8501"
 
 proc = subprocess.Popen(
     [sys.executable, "-m", "streamlit", "run", "app/app.py",
-     "--server.headless", "true"],
+     "--server.headless", "true",
+     "--server.port", "8501"],
 )
 
 # Wait for the server to start, then open the browser
