@@ -1,0 +1,301 @@
+                            WLS Regression Results                            
+==============================================================================
+Dep. Variable:              log_price   R-squared:                       0.746
+Model:                            WLS   Adj. R-squared:                  0.743
+Method:                 Least Squares   F-statistic:                     320.1
+Date:                Thu, 16 Apr 2026   Prob (F-statistic):               0.00
+Time:                        12:15:35   Log-Likelihood:                -8505.7
+No. Observations:               30301   AIC:                         1.756e+04
+Df Residuals:                   30025   BIC:                         1.986e+04
+Df Model:                         275                                         
+Covariance Type:            nonrobust                                         
+=============================================================================================================================
+                                                                coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------------------------------
+Intercept                                                   -21.5705      0.717    -30.088      0.000     -22.976     -20.165
+C(municipality, Treatment('Helsinki'))[T.Akaa]               -1.2954      0.031    -42.022      0.000      -1.356      -1.235
+C(municipality, Treatment('Helsinki'))[T.Alajärvi]           -1.3531      0.087    -15.571      0.000      -1.523      -1.183
+C(municipality, Treatment('Helsinki'))[T.Alavieska]          -1.7011      0.206     -8.255      0.000      -2.105      -1.297
+C(municipality, Treatment('Helsinki'))[T.Alavus]             -1.2936      0.065    -19.866      0.000      -1.421      -1.166
+C(municipality, Treatment('Helsinki'))[T.Asikkala]           -1.2081      0.049    -24.734      0.000      -1.304      -1.112
+C(municipality, Treatment('Helsinki'))[T.Askola]             -0.8633      0.129     -6.697      0.000      -1.116      -0.611
+C(municipality, Treatment('Helsinki'))[T.Aura]               -1.1384      0.072    -15.798      0.000      -1.280      -0.997
+C(municipality, Treatment('Helsinki'))[T.Enonkoski]          -1.9455      0.384     -5.072      0.000      -2.697      -1.194
+C(municipality, Treatment('Helsinki'))[T.Espoo]              -0.2303      0.007    -31.985      0.000      -0.244      -0.216
+C(municipality, Treatment('Helsinki'))[T.Eura]               -1.3037      0.059    -22.004      0.000      -1.420      -1.188
+C(municipality, Treatment('Helsinki'))[T.Eurajoki]           -1.2538      0.074    -16.928      0.000      -1.399      -1.109
+C(municipality, Treatment('Helsinki'))[T.Forssa]             -1.3759      0.026    -52.522      0.000      -1.427      -1.325
+C(municipality, Treatment('Helsinki'))[T.Haapajärvi]         -1.4415      0.076    -18.935      0.000      -1.591      -1.292
+C(municipality, Treatment('Helsinki'))[T.Haapavesi]          -1.3605      0.088    -15.545      0.000      -1.532      -1.189
+C(municipality, Treatment('Helsinki'))[T.Hamina]             -1.2600      0.031    -40.644      0.000      -1.321      -1.199
+C(municipality, Treatment('Helsinki'))[T.Hankasalmi]         -1.5536      0.108    -14.439      0.000      -1.765      -1.343
+C(municipality, Treatment('Helsinki'))[T.Hanko]              -0.9540      0.036    -26.773      0.000      -1.024      -0.884
+C(municipality, Treatment('Helsinki'))[T.Harjavalta]         -1.5807      0.051    -31.263      0.000      -1.680      -1.482
+C(municipality, Treatment('Helsinki'))[T.Hartola]            -1.5147      0.128    -11.795      0.000      -1.766      -1.263
+C(municipality, Treatment('Helsinki'))[T.Hattula]            -0.9403      0.058    -16.147      0.000      -1.054      -0.826
+C(municipality, Treatment('Helsinki'))[T.Hausjärvi]          -1.2205      0.079    -15.385      0.000      -1.376      -1.065
+C(municipality, Treatment('Helsinki'))[T.Heinola]            -1.4184      0.025    -56.250      0.000      -1.468      -1.369
+C(municipality, Treatment('Helsinki'))[T.Heinävesi]          -1.9291      0.176    -10.937      0.000      -2.275      -1.583
+C(municipality, Treatment('Helsinki'))[T.Hirvensalmi]        -1.4749      0.124    -11.904      0.000      -1.718      -1.232
+C(municipality, Treatment('Helsinki'))[T.Hollola]            -1.1613      0.029    -39.970      0.000      -1.218      -1.104
+C(municipality, Treatment('Helsinki'))[T.Huittinen]          -1.4232      0.040    -35.319      0.000      -1.502      -1.344
+C(municipality, Treatment('Helsinki'))[T.Humppila]           -1.5871      0.206     -7.702      0.000      -1.991      -1.183
+C(municipality, Treatment('Helsinki'))[T.Hyrynsalmi]         -1.3569      0.251     -5.403      0.000      -1.849      -0.865
+C(municipality, Treatment('Helsinki'))[T.Hyvinkää]           -0.8116      0.015    -53.871      0.000      -0.841      -0.782
+C(municipality, Treatment('Helsinki'))[T.Hämeenkyrö]         -1.2919      0.057    -22.855      0.000      -1.403      -1.181
+C(municipality, Treatment('Helsinki'))[T.Hämeenlinna]        -0.8529      0.013    -63.409      0.000      -0.879      -0.826
+C(municipality, Treatment('Helsinki'))[T.Ii]                 -1.3729      0.077    -17.717      0.000      -1.525      -1.221
+C(municipality, Treatment('Helsinki'))[T.Iisalmi]            -1.1460      0.027    -42.495      0.000      -1.199      -1.093
+C(municipality, Treatment('Helsinki'))[T.Iitti]              -1.4041      0.072    -19.559      0.000      -1.545      -1.263
+C(municipality, Treatment('Helsinki'))[T.Ikaalinen]          -1.3620      0.059    -22.945      0.000      -1.478      -1.246
+C(municipality, Treatment('Helsinki'))[T.Ilmajoki]           -1.0921      0.063    -17.270      0.000      -1.216      -0.968
+C(municipality, Treatment('Helsinki'))[T.Ilomantsi]          -1.9154      0.076    -25.251      0.000      -2.064      -1.767
+C(municipality, Treatment('Helsinki'))[T.Imatra]             -1.4481      0.025    -58.851      0.000      -1.496      -1.400
+C(municipality, Treatment('Helsinki'))[T.Inari]              -1.0732      0.078    -13.718      0.000      -1.227      -0.920
+C(municipality, Treatment('Helsinki'))[T.Ingå]               -0.8811      0.093     -9.441      0.000      -1.064      -0.698
+C(municipality, Treatment('Helsinki'))[T.Isojoki]            -1.4144      0.360     -3.925      0.000      -2.121      -0.708
+C(municipality, Treatment('Helsinki'))[T.Isokyrö]            -1.3137      0.148     -8.882      0.000      -1.604      -1.024
+C(municipality, Treatment('Helsinki'))[T.Jakobstad]          -1.2596      0.027    -47.055      0.000      -1.312      -1.207
+C(municipality, Treatment('Helsinki'))[T.Janakkala]          -1.1869      0.031    -37.926      0.000      -1.248      -1.126
+C(municipality, Treatment('Helsinki'))[T.Joensuu]            -0.8551      0.014    -62.906      0.000      -0.882      -0.828
+C(municipality, Treatment('Helsinki'))[T.Jokioinen]          -1.2984      0.099    -13.095      0.000      -1.493      -1.104
+C(municipality, Treatment('Helsinki'))[T.Joroinen]           -1.8167      0.098    -18.605      0.000      -2.008      -1.625
+C(municipality, Treatment('Helsinki'))[T.Joutsa]             -1.5916      0.073    -21.918      0.000      -1.734      -1.449
+C(municipality, Treatment('Helsinki'))[T.Juuka]              -1.7060      0.108    -15.854      0.000      -1.917      -1.495
+C(municipality, Treatment('Helsinki'))[T.Juva]               -1.4751      0.067    -21.937      0.000      -1.607      -1.343
+C(municipality, Treatment('Helsinki'))[T.Jyväskylä]          -0.8547      0.009    -94.205      0.000      -0.873      -0.837
+C(municipality, Treatment('Helsinki'))[T.Jämijärvi]          -1.4374      0.332     -4.327      0.000      -2.089      -0.786
+C(municipality, Treatment('Helsinki'))[T.Jämsä]              -1.4769      0.031    -47.322      0.000      -1.538      -1.416
+C(municipality, Treatment('Helsinki'))[T.Järvenpää]          -0.5711      0.015    -36.903      0.000      -0.601      -0.541
+C(municipality, Treatment('Helsinki'))[T.Kaarina]            -0.7992      0.020    -39.075      0.000      -0.839      -0.759
+C(municipality, Treatment('Helsinki'))[T.Kaavi]              -1.6432      0.108    -15.192      0.000      -1.855      -1.431
+C(municipality, Treatment('Helsinki'))[T.Kajaani]            -1.1739      0.019    -61.810      0.000      -1.211      -1.137
+C(municipality, Treatment('Helsinki'))[T.Kalajoki]           -1.1501      0.065    -17.655      0.000      -1.278      -1.022
+C(municipality, Treatment('Helsinki'))[T.Kangasala]          -0.8218      0.021    -39.529      0.000      -0.863      -0.781
+C(municipality, Treatment('Helsinki'))[T.Kangasniemi]        -1.4974      0.066    -22.518      0.000      -1.628      -1.367
+C(municipality, Treatment('Helsinki'))[T.Kankaanpää]         -1.3991      0.050    -28.208      0.000      -1.496      -1.302
+C(municipality, Treatment('Helsinki'))[T.Kannonkoski]        -1.7837      0.235     -7.592      0.000      -2.244      -1.323
+C(municipality, Treatment('Helsinki'))[T.Kannus]             -1.4532      0.078    -18.606      0.000      -1.606      -1.300
+C(municipality, Treatment('Helsinki'))[T.Karijoki]           -1.7029      0.606     -2.808      0.005      -2.892      -0.514
+C(municipality, Treatment('Helsinki'))[T.Karkkila]           -1.1485      0.045    -25.471      0.000      -1.237      -1.060
+C(municipality, Treatment('Helsinki'))[T.Karstula]           -1.5189      0.103    -14.729      0.000      -1.721      -1.317
+C(municipality, Treatment('Helsinki'))[T.Karvia]             -1.5764      0.341     -4.625      0.000      -2.245      -0.908
+C(municipality, Treatment('Helsinki'))[T.Kaskinen]           -1.8631      0.165    -11.284      0.000      -2.187      -1.539
+C(municipality, Treatment('Helsinki'))[T.Kauhajoki]          -1.3105      0.055    -23.661      0.000      -1.419      -1.202
+C(municipality, Treatment('Helsinki'))[T.Kauhava]            -1.4492      0.062    -23.543      0.000      -1.570      -1.329
+C(municipality, Treatment('Helsinki'))[T.Kauniainen]         -0.1216      0.034     -3.590      0.000      -0.188      -0.055
+C(municipality, Treatment('Helsinki'))[T.Kaustinen]          -1.3536      0.127    -10.657      0.000      -1.603      -1.105
+C(municipality, Treatment('Helsinki'))[T.Keitele]            -1.6944      0.133    -12.743      0.000      -1.955      -1.434
+C(municipality, Treatment('Helsinki'))[T.Kemi]               -1.5934      0.025    -64.747      0.000      -1.642      -1.545
+C(municipality, Treatment('Helsinki'))[T.Kemijärvi]          -1.8241      0.083    -22.009      0.000      -1.987      -1.662
+C(municipality, Treatment('Helsinki'))[T.Keminmaa]           -1.5034      0.069    -21.637      0.000      -1.640      -1.367
+C(municipality, Treatment('Helsinki'))[T.Kempele]            -0.9378      0.030    -31.372      0.000      -0.996      -0.879
+C(municipality, Treatment('Helsinki'))[T.Kerava]             -0.6106      0.017    -36.017      0.000      -0.644      -0.577
+C(municipality, Treatment('Helsinki'))[T.Keuruu]             -1.4824      0.041    -35.835      0.000      -1.563      -1.401
+C(municipality, Treatment('Helsinki'))[T.Kimitoön]           -1.3942      0.103    -13.589      0.000      -1.595      -1.193
+C(municipality, Treatment('Helsinki'))[T.Kinnula]            -1.7824      0.291     -6.117      0.000      -2.354      -1.211
+C(municipality, Treatment('Helsinki'))[T.Kirkkonummi]        -0.6212      0.020    -31.270      0.000      -0.660      -0.582
+C(municipality, Treatment('Helsinki'))[T.Kitee]              -1.6360      0.053    -31.074      0.000      -1.739      -1.533
+C(municipality, Treatment('Helsinki'))[T.Kittilä]            -0.7679      0.089     -8.590      0.000      -0.943      -0.593
+C(municipality, Treatment('Helsinki'))[T.Kiuruvesi]          -1.6151      0.070    -22.921      0.000      -1.753      -1.477
+C(municipality, Treatment('Helsinki'))[T.Kokemäki]           -1.5250      0.076    -20.031      0.000      -1.674      -1.376
+C(municipality, Treatment('Helsinki'))[T.Kokkola]            -0.9144      0.021    -43.592      0.000      -0.955      -0.873
+C(municipality, Treatment('Helsinki'))[T.Kolari]             -0.8740      0.104     -8.415      0.000      -1.078      -0.670
+C(municipality, Treatment('Helsinki'))[T.Konnevesi]          -1.3370      0.324     -4.124      0.000      -1.973      -0.702
+C(municipality, Treatment('Helsinki'))[T.Kontiolahti]        -0.9779      0.047    -20.769      0.000      -1.070      -0.886
+C(municipality, Treatment('Helsinki'))[T.Korsholm]           -0.9433      0.039    -23.945      0.000      -1.021      -0.866
+C(municipality, Treatment('Helsinki'))[T.Korsnäs]            -1.0994      0.606     -1.813      0.070      -2.288       0.089
+C(municipality, Treatment('Helsinki'))[T.Koski Tl]           -1.3939      0.140     -9.924      0.000      -1.669      -1.119
+C(municipality, Treatment('Helsinki'))[T.Kotka]              -1.2303      0.015    -81.357      0.000      -1.260      -1.201
+C(municipality, Treatment('Helsinki'))[T.Kouvola]            -1.3153      0.014    -93.006      0.000      -1.343      -1.288
+C(municipality, Treatment('Helsinki'))[T.Kristinestad]       -1.5553      0.105    -14.790      0.000      -1.761      -1.349
+C(municipality, Treatment('Helsinki'))[T.Kronoby]            -1.4339      0.303     -4.728      0.000      -2.028      -0.839
+C(municipality, Treatment('Helsinki'))[T.Kuhmo]              -1.5917      0.060    -26.431      0.000      -1.710      -1.474
+C(municipality, Treatment('Helsinki'))[T.Kuhmoinen]          -1.5596      0.168     -9.269      0.000      -1.889      -1.230
+C(municipality, Treatment('Helsinki'))[T.Kuopio]             -0.7873      0.010    -76.505      0.000      -0.807      -0.767
+C(municipality, Treatment('Helsinki'))[T.Kuortane]           -1.3998      0.159     -8.785      0.000      -1.712      -1.087
+C(municipality, Treatment('Helsinki'))[T.Kurikka]            -1.3398      0.051    -26.382      0.000      -1.439      -1.240
+C(municipality, Treatment('Helsinki'))[T.Kuusamo]            -1.1436      0.038    -29.715      0.000      -1.219      -1.068
+C(municipality, Treatment('Helsinki'))[T.Kyyjärvi]           -1.3736      0.562     -2.446      0.014      -2.474      -0.273
+C(municipality, Treatment('Helsinki'))[T.Kärkölä]            -1.3845      0.088    -15.654      0.000      -1.558      -1.211
+C(municipality, Treatment('Helsinki'))[T.Kärsämäki]          -1.7557      0.208     -8.438      0.000      -2.164      -1.348
+C(municipality, Treatment('Helsinki'))[T.Lahti]              -0.9440      0.010    -97.887      0.000      -0.963      -0.925
+C(municipality, Treatment('Helsinki'))[T.Laihia]             -1.1391      0.064    -17.917      0.000      -1.264      -1.014
+C(municipality, Treatment('Helsinki'))[T.Laitila]            -1.3361      0.047    -28.148      0.000      -1.429      -1.243
+C(municipality, Treatment('Helsinki'))[T.Lapinjärvi]         -1.2982      0.607     -2.140      0.032      -2.487      -0.109
+C(municipality, Treatment('Helsinki'))[T.Lapinlahti]         -1.5344      0.058    -26.336      0.000      -1.649      -1.420
+C(municipality, Treatment('Helsinki'))[T.Lappajärvi]         -1.2864      0.303     -4.242      0.000      -1.881      -0.692
+C(municipality, Treatment('Helsinki'))[T.Lappeenranta]       -0.8804      0.014    -62.392      0.000      -0.908      -0.853
+C(municipality, Treatment('Helsinki'))[T.Lapua]              -1.1386      0.044    -25.645      0.000      -1.226      -1.052
+C(municipality, Treatment('Helsinki'))[T.Larsmo]             -0.8766      0.286     -3.066      0.002      -1.437      -0.316
+C(municipality, Treatment('Helsinki'))[T.Laukaa]             -1.1747      0.040    -29.357      0.000      -1.253      -1.096
+C(municipality, Treatment('Helsinki'))[T.Lemi]               -1.2706      0.222     -5.736      0.000      -1.705      -0.836
+C(municipality, Treatment('Helsinki'))[T.Lempäälä]           -0.7940      0.027    -29.764      0.000      -0.846      -0.742
+C(municipality, Treatment('Helsinki'))[T.Leppävirta]         -1.4764      0.056    -26.294      0.000      -1.586      -1.366
+C(municipality, Treatment('Helsinki'))[T.Lieksa]             -1.7735      0.045    -39.821      0.000      -1.861      -1.686
+C(municipality, Treatment('Helsinki'))[T.Lieto]              -0.8501      0.042    -20.475      0.000      -0.931      -0.769
+C(municipality, Treatment('Helsinki'))[T.Liminka]            -1.2245      0.077    -15.931      0.000      -1.375      -1.074
+C(municipality, Treatment('Helsinki'))[T.Liperi]             -1.3493      0.056    -24.180      0.000      -1.459      -1.240
+C(municipality, Treatment('Helsinki'))[T.Lohja]              -0.8618      0.018    -47.092      0.000      -0.898      -0.826
+C(municipality, Treatment('Helsinki'))[T.Loimaa]             -1.3724      0.035    -38.734      0.000      -1.442      -1.303
+C(municipality, Treatment('Helsinki'))[T.Loppi]              -1.1534      0.093    -12.410      0.000      -1.336      -0.971
+C(municipality, Treatment('Helsinki'))[T.Loviisa]            -1.0608      0.046    -23.181      0.000      -1.150      -0.971
+C(municipality, Treatment('Helsinki'))[T.Lumijoki]           -1.6004      0.606     -2.639      0.008      -2.789      -0.412
+C(municipality, Treatment('Helsinki'))[T.Luumäki]            -1.4923      0.091    -16.364      0.000      -1.671      -1.314
+C(municipality, Treatment('Helsinki'))[T.Malax]              -1.0645      0.131     -8.101      0.000      -1.322      -0.807
+C(municipality, Treatment('Helsinki'))[T.Marttila]           -1.3093      0.235     -5.573      0.000      -1.770      -0.849
+C(municipality, Treatment('Helsinki'))[T.Masku]              -0.8714      0.064    -13.695      0.000      -0.996      -0.747
+C(municipality, Treatment('Helsinki'))[T.Merikarvia]         -1.5950      0.259     -6.166      0.000      -2.102      -1.088
+C(municipality, Treatment('Helsinki'))[T.Mikkeli]            -0.9269      0.017    -54.565      0.000      -0.960      -0.894
+C(municipality, Treatment('Helsinki'))[T.Muhos]              -1.3981      0.069    -20.266      0.000      -1.533      -1.263
+C(municipality, Treatment('Helsinki'))[T.Multia]             -1.9768      0.167    -11.822      0.000      -2.305      -1.649
+C(municipality, Treatment('Helsinki'))[T.Muurame]            -1.0119      0.052    -19.595      0.000      -1.113      -0.911
+C(municipality, Treatment('Helsinki'))[T.Mynämäki]           -1.1315      0.067    -16.926      0.000      -1.262      -1.000
+C(municipality, Treatment('Helsinki'))[T.Myrskylä]           -1.0963      0.412     -2.661      0.008      -1.904      -0.289
+C(municipality, Treatment('Helsinki'))[T.Mäntsälä]           -0.8113      0.032    -24.966      0.000      -0.875      -0.748
+C(municipality, Treatment('Helsinki'))[T.Mänttä-Vilppula]    -1.7708      0.046    -38.763      0.000      -1.860      -1.681
+C(municipality, Treatment('Helsinki'))[T.Mäntyharju]         -1.5627      0.059    -26.607      0.000      -1.678      -1.448
+C(municipality, Treatment('Helsinki'))[T.Naantali]           -0.7805      0.025    -30.794      0.000      -0.830      -0.731
+C(municipality, Treatment('Helsinki'))[T.Nakkila]            -1.4935      0.091    -16.346      0.000      -1.673      -1.314
+C(municipality, Treatment('Helsinki'))[T.Nivala]             -1.2581      0.061    -20.583      0.000      -1.378      -1.138
+C(municipality, Treatment('Helsinki'))[T.Nokia]              -0.8798      0.019    -47.258      0.000      -0.916      -0.843
+C(municipality, Treatment('Helsinki'))[T.Nousiainen]         -1.0541      0.115     -9.190      0.000      -1.279      -0.829
+C(municipality, Treatment('Helsinki'))[T.Nurmes]             -1.6745      0.055    -30.680      0.000      -1.781      -1.568
+C(municipality, Treatment('Helsinki'))[T.Nurmijärvi]         -0.6903      0.020    -35.020      0.000      -0.729      -0.652
+C(municipality, Treatment('Helsinki'))[T.Nykarleby]          -1.2833      0.096    -13.428      0.000      -1.471      -1.096
+C(municipality, Treatment('Helsinki'))[T.Närpes]             -1.3409      0.115    -11.623      0.000      -1.567      -1.115
+C(municipality, Treatment('Helsinki'))[T.Orimattila]         -1.2042      0.038    -31.732      0.000      -1.279      -1.130
+C(municipality, Treatment('Helsinki'))[T.Oripää]             -1.3845      0.562     -2.466      0.014      -2.485      -0.284
+C(municipality, Treatment('Helsinki'))[T.Orivesi]            -1.2412      0.045    -27.418      0.000      -1.330      -1.152
+C(municipality, Treatment('Helsinki'))[T.Oulainen]           -1.3826      0.058    -23.910      0.000      -1.496      -1.269
+C(municipality, Treatment('Helsinki'))[T.Oulu]               -0.8668      0.008   -106.285      0.000      -0.883      -0.851
+C(municipality, Treatment('Helsinki'))[T.Outokumpu]          -1.7327      0.057    -30.209      0.000      -1.845      -1.620
+C(municipality, Treatment('Helsinki'))[T.Padasjoki]          -1.4379      0.235     -6.121      0.000      -1.898      -0.977
+C(municipality, Treatment('Helsinki'))[T.Paimio]             -1.1534      0.037    -31.566      0.000      -1.225      -1.082
+C(municipality, Treatment('Helsinki'))[T.Paltamo]            -1.7253      0.180     -9.573      0.000      -2.079      -1.372
+C(municipality, Treatment('Helsinki'))[T.Pargas]             -1.1118      0.036    -30.794      0.000      -1.183      -1.041
+C(municipality, Treatment('Helsinki'))[T.Parikkala]          -1.4403      0.147     -9.787      0.000      -1.729      -1.152
+C(municipality, Treatment('Helsinki'))[T.Parkano]            -1.4865      0.060    -24.680      0.000      -1.605      -1.368
+C(municipality, Treatment('Helsinki'))[T.Pelkosenniemi]      -1.9904      0.241     -8.257      0.000      -2.463      -1.518
+C(municipality, Treatment('Helsinki'))[T.Perho]              -1.3166      0.562     -2.345      0.019      -2.417      -0.216
+C(municipality, Treatment('Helsinki'))[T.Pertunmaa]          -1.7525      0.222     -7.912      0.000      -2.187      -1.318
+C(municipality, Treatment('Helsinki'))[T.Petäjävesi]         -1.3622      0.151     -9.027      0.000      -1.658      -1.066
+C(municipality, Treatment('Helsinki'))[T.Pieksämäki]         -1.6834      0.033    -51.676      0.000      -1.747      -1.620
+C(municipality, Treatment('Helsinki'))[T.Pielavesi]          -1.6952      0.101    -16.835      0.000      -1.893      -1.498
+C(municipality, Treatment('Helsinki'))[T.Pihtipudas]         -1.5297      0.111    -13.801      0.000      -1.747      -1.312
+C(municipality, Treatment('Helsinki'))[T.Pirkkala]           -0.6167      0.023    -27.153      0.000      -0.661      -0.572
+C(municipality, Treatment('Helsinki'))[T.Polvijärvi]         -1.6705      0.117    -14.300      0.000      -1.899      -1.442
+C(municipality, Treatment('Helsinki'))[T.Pomarkku]           -1.6447      0.210     -7.826      0.000      -2.057      -1.233
+C(municipality, Treatment('Helsinki'))[T.Pori]               -1.1366      0.012    -91.240      0.000      -1.161      -1.112
+C(municipality, Treatment('Helsinki'))[T.Pornainen]          -0.7784      0.135     -5.760      0.000      -1.043      -0.513
+C(municipality, Treatment('Helsinki'))[T.Porvoo]             -0.5626      0.018    -32.108      0.000      -0.597      -0.528
+C(municipality, Treatment('Helsinki'))[T.Posio]              -2.0841      0.286     -7.289      0.000      -2.645      -1.524
+C(municipality, Treatment('Helsinki'))[T.Pudasjärvi]         -1.5887      0.083    -19.161      0.000      -1.751      -1.426
+C(municipality, Treatment('Helsinki'))[T.Punkalaidun]        -1.7055      0.154    -11.066      0.000      -2.008      -1.403
+C(municipality, Treatment('Helsinki'))[T.Puolanka]           -2.0742      0.167    -12.404      0.000      -2.402      -1.746
+C(municipality, Treatment('Helsinki'))[T.Puumala]            -1.6407      0.187     -8.763      0.000      -2.008      -1.274
+C(municipality, Treatment('Helsinki'))[T.Pyhtää]             -1.1679      0.118     -9.873      0.000      -1.400      -0.936
+C(municipality, Treatment('Helsinki'))[T.Pyhäjoki]           -1.4147      0.310     -4.566      0.000      -2.022      -0.807
+C(municipality, Treatment('Helsinki'))[T.Pyhäjärvi]          -1.5345      0.108    -14.190      0.000      -1.746      -1.323
+C(municipality, Treatment('Helsinki'))[T.Pyhäntä]            -1.5527      0.562     -2.765      0.006      -2.653      -0.452
+C(municipality, Treatment('Helsinki'))[T.Pyhäranta]          -1.5241      0.429     -3.554      0.000      -2.365      -0.683
+C(municipality, Treatment('Helsinki'))[T.Pälkäne]            -1.1278      0.092    -12.227      0.000      -1.309      -0.947
+C(municipality, Treatment('Helsinki'))[T.Pöytyä]             -1.3780      0.078    -17.614      0.000      -1.531      -1.225
+C(municipality, Treatment('Helsinki'))[T.Raahe]              -1.2586      0.033    -37.842      0.000      -1.324      -1.193
+C(municipality, Treatment('Helsinki'))[T.Raasepori]          -0.9765      0.026    -37.191      0.000      -1.028      -0.925
+C(municipality, Treatment('Helsinki'))[T.Raisio]             -0.9376      0.020    -45.802      0.000      -0.978      -0.897
+C(municipality, Treatment('Helsinki'))[T.Rantasalmi]         -1.8112      0.108    -16.704      0.000      -2.024      -1.599
+C(municipality, Treatment('Helsinki'))[T.Ranua]              -1.7352      0.110    -15.786      0.000      -1.951      -1.520
+C(municipality, Treatment('Helsinki'))[T.Rauma]              -1.1069      0.017    -63.636      0.000      -1.141      -1.073
+C(municipality, Treatment('Helsinki'))[T.Rautalampi]         -1.6188      0.158    -10.275      0.000      -1.928      -1.310
+C(municipality, Treatment('Helsinki'))[T.Rautavaara]         -2.2243      0.606     -3.667      0.000      -3.413      -1.036
+C(municipality, Treatment('Helsinki'))[T.Rautjärvi]          -1.9168      0.217     -8.844      0.000      -2.342      -1.492
+C(municipality, Treatment('Helsinki'))[T.Reisjärvi]          -1.6833      0.153    -10.980      0.000      -1.984      -1.383
+C(municipality, Treatment('Helsinki'))[T.Riihimäki]          -0.9919      0.019    -51.272      0.000      -1.030      -0.954
+C(municipality, Treatment('Helsinki'))[T.Rovaniemi]          -0.9619      0.014    -66.884      0.000      -0.990      -0.934
+C(municipality, Treatment('Helsinki'))[T.Ruokolahti]         -1.2576      0.119    -10.600      0.000      -1.490      -1.025
+C(municipality, Treatment('Helsinki'))[T.Ruovesi]            -1.5174      0.098    -15.476      0.000      -1.710      -1.325
+C(municipality, Treatment('Helsinki'))[T.Rusko]              -0.8273      0.087     -9.550      0.000      -0.997      -0.658
+C(municipality, Treatment('Helsinki'))[T.Rääkkylä]           -2.0530      0.281     -7.312      0.000      -2.603      -1.503
+C(municipality, Treatment('Helsinki'))[T.Saarijärvi]         -1.5054      0.058    -25.956      0.000      -1.619      -1.392
+C(municipality, Treatment('Helsinki'))[T.Salla]              -1.7813      0.164    -10.853      0.000      -2.103      -1.460
+C(municipality, Treatment('Helsinki'))[T.Salo]               -1.1734      0.017    -68.749      0.000      -1.207      -1.140
+C(municipality, Treatment('Helsinki'))[T.Sastamala]          -1.1835      0.033    -35.541      0.000      -1.249      -1.118
+C(municipality, Treatment('Helsinki'))[T.Sauvo]              -1.2548      0.151     -8.315      0.000      -1.551      -0.959
+C(municipality, Treatment('Helsinki'))[T.Savitaipale]        -1.4532      0.111    -13.076      0.000      -1.671      -1.235
+C(municipality, Treatment('Helsinki'))[T.Savonlinna]         -1.2112      0.021    -56.832      0.000      -1.253      -1.169
+C(municipality, Treatment('Helsinki'))[T.Seinäjoki]          -0.8614      0.014    -60.133      0.000      -0.890      -0.833
+C(municipality, Treatment('Helsinki'))[T.Sievi]              -1.6202      0.173     -9.378      0.000      -1.959      -1.282
+C(municipality, Treatment('Helsinki'))[T.Siikajoki]          -1.7388      0.241     -7.214      0.000      -2.211      -1.266
+C(municipality, Treatment('Helsinki'))[T.Siikalatva]         -1.8029      0.286     -6.305      0.000      -2.363      -1.242
+C(municipality, Treatment('Helsinki'))[T.Siilinjärvi]        -1.0027      0.028    -35.510      0.000      -1.058      -0.947
+C(municipality, Treatment('Helsinki'))[T.Sipoo]              -0.5568      0.036    -15.658      0.000      -0.626      -0.487
+C(municipality, Treatment('Helsinki'))[T.Siuntio]            -0.8858      0.093     -9.491      0.000      -1.069      -0.703
+C(municipality, Treatment('Helsinki'))[T.Sodankylä]          -1.4586      0.071    -20.600      0.000      -1.597      -1.320
+C(municipality, Treatment('Helsinki'))[T.Soini]              -1.6522      0.238     -6.944      0.000      -2.119      -1.186
+C(municipality, Treatment('Helsinki'))[T.Somero]             -1.3722      0.052    -26.234      0.000      -1.475      -1.270
+C(municipality, Treatment('Helsinki'))[T.Sonkajärvi]         -1.6174      0.159    -10.150      0.000      -1.930      -1.305
+C(municipality, Treatment('Helsinki'))[T.Sotkamo]            -1.0802      0.045    -24.206      0.000      -1.168      -0.993
+C(municipality, Treatment('Helsinki'))[T.Sulkava]            -1.8578      0.166    -11.181      0.000      -2.184      -1.532
+C(municipality, Treatment('Helsinki'))[T.Suomussalmi]        -1.7924      0.074    -24.185      0.000      -1.938      -1.647
+C(municipality, Treatment('Helsinki'))[T.Suonenjoki]         -1.5200      0.052    -29.312      0.000      -1.622      -1.418
+C(municipality, Treatment('Helsinki'))[T.Sysmä]              -1.5253      0.085    -18.020      0.000      -1.691      -1.359
+C(municipality, Treatment('Helsinki'))[T.Säkylä]             -1.3388      0.122    -10.993      0.000      -1.577      -1.100
+C(municipality, Treatment('Helsinki'))[T.Taipalsaari]        -1.0477      0.096    -10.912      0.000      -1.236      -0.860
+C(municipality, Treatment('Helsinki'))[T.Taivalkoski]        -1.6178      0.350     -4.620      0.000      -2.304      -0.931
+C(municipality, Treatment('Helsinki'))[T.Taivassalo]         -1.3230      0.232     -5.701      0.000      -1.778      -0.868
+C(municipality, Treatment('Helsinki'))[T.Tammela]            -1.2150      0.106    -11.499      0.000      -1.422      -1.008
+C(municipality, Treatment('Helsinki'))[T.Tampere]            -0.5400      0.007    -78.341      0.000      -0.553      -0.526
+C(municipality, Treatment('Helsinki'))[T.Tervo]              -1.7492      0.412     -4.245      0.000      -2.557      -0.942
+C(municipality, Treatment('Helsinki'))[T.Tervola]            -1.2348      0.562     -2.199      0.028      -2.335      -0.134
+C(municipality, Treatment('Helsinki'))[T.Teuva]              -1.5445      0.136    -11.334      0.000      -1.812      -1.277
+C(municipality, Treatment('Helsinki'))[T.Tohmajärvi]         -1.9172      0.124    -15.475      0.000      -2.160      -1.674
+C(municipality, Treatment('Helsinki'))[T.Toholampi]          -1.5499      0.199     -7.805      0.000      -1.939      -1.161
+C(municipality, Treatment('Helsinki'))[T.Toivakka]           -1.3839      0.197     -7.031      0.000      -1.770      -0.998
+C(municipality, Treatment('Helsinki'))[T.Tornio]             -1.1449      0.033    -35.098      0.000      -1.209      -1.081
+C(municipality, Treatment('Helsinki'))[T.Turku]              -0.6701      0.007    -89.641      0.000      -0.685      -0.655
+C(municipality, Treatment('Helsinki'))[T.Tuusniemi]          -1.8224      0.109    -16.759      0.000      -2.036      -1.609
+C(municipality, Treatment('Helsinki'))[T.Tuusula]            -0.6383      0.021    -30.599      0.000      -0.679      -0.597
+C(municipality, Treatment('Helsinki'))[T.Tyrnävä]            -1.3432      0.090    -14.999      0.000      -1.519      -1.168
+C(municipality, Treatment('Helsinki'))[T.Ulvila]             -1.2411      0.046    -26.810      0.000      -1.332      -1.150
+C(municipality, Treatment('Helsinki'))[T.Urjala]             -1.3722      0.114    -12.069      0.000      -1.595      -1.149
+C(municipality, Treatment('Helsinki'))[T.Utajärvi]           -1.5406      0.178     -8.674      0.000      -1.889      -1.192
+C(municipality, Treatment('Helsinki'))[T.Uurainen]           -1.3819      0.606     -2.279      0.023      -2.571      -0.193
+C(municipality, Treatment('Helsinki'))[T.Uusikaupunki]       -1.3558      0.027    -50.873      0.000      -1.408      -1.304
+C(municipality, Treatment('Helsinki'))[T.Vaala]              -1.6805      0.146    -11.474      0.000      -1.968      -1.393
+C(municipality, Treatment('Helsinki'))[T.Vaasa]              -0.8320      0.013    -64.814      0.000      -0.857      -0.807
+C(municipality, Treatment('Helsinki'))[T.Valkeakoski]        -1.2359      0.024    -51.187      0.000      -1.283      -1.189
+C(municipality, Treatment('Helsinki'))[T.Vantaa]             -0.4717      0.008    -60.412      0.000      -0.487      -0.456
+C(municipality, Treatment('Helsinki'))[T.Varkaus]            -1.6727      0.026    -63.558      0.000      -1.724      -1.621
+C(municipality, Treatment('Helsinki'))[T.Vehmaa]             -1.4230      0.210     -6.771      0.000      -1.835      -1.011
+C(municipality, Treatment('Helsinki'))[T.Vesanto]            -1.8796      0.259     -7.267      0.000      -2.387      -1.373
+C(municipality, Treatment('Helsinki'))[T.Vesilahti]          -0.9028      0.151     -5.982      0.000      -1.199      -0.607
+C(municipality, Treatment('Helsinki'))[T.Veteli]             -1.5296      0.341     -4.488      0.000      -2.198      -0.862
+C(municipality, Treatment('Helsinki'))[T.Vieremä]            -1.5440      0.158     -9.801      0.000      -1.853      -1.235
+C(municipality, Treatment('Helsinki'))[T.Vihti]              -0.7800      0.021    -37.699      0.000      -0.821      -0.739
+C(municipality, Treatment('Helsinki'))[T.Viitasaari]         -1.4377      0.065    -21.967      0.000      -1.566      -1.309
+C(municipality, Treatment('Helsinki'))[T.Vimpeli]            -1.2658      0.412     -3.072      0.002      -2.073      -0.458
+C(municipality, Treatment('Helsinki'))[T.Virolahti]          -1.4525      0.525     -2.765      0.006      -2.482      -0.423
+C(municipality, Treatment('Helsinki'))[T.Virrat]             -1.4449      0.079    -18.403      0.000      -1.599      -1.291
+C(municipality, Treatment('Helsinki'))[T.Vöyri]              -1.3665      0.227     -6.030      0.000      -1.811      -0.922
+C(municipality, Treatment('Helsinki'))[T.Ylitornio]          -1.7053      0.219     -7.784      0.000      -2.135      -1.276
+C(municipality, Treatment('Helsinki'))[T.Ylivieska]          -1.1226      0.034    -32.816      0.000      -1.190      -1.056
+C(municipality, Treatment('Helsinki'))[T.Ylöjärvi]           -0.8189      0.022    -36.819      0.000      -0.863      -0.775
+C(municipality, Treatment('Helsinki'))[T.Ypäjä]              -1.3712      0.562     -2.442      0.015      -2.472      -0.271
+C(municipality, Treatment('Helsinki'))[T.Ähtäri]             -1.4943      0.074    -20.129      0.000      -1.640      -1.349
+C(municipality, Treatment('Helsinki'))[T.Äänekoski]          -1.5394      0.031    -49.450      0.000      -1.600      -1.478
+C(building_type)[T.Blocks of flats, three-room flat+]        -0.2328      0.005    -44.368      0.000      -0.243      -0.222
+C(building_type)[T.Blocks of flats, two-room flat]           -0.1824      0.005    -37.000      0.000      -0.192      -0.173
+C(building_type)[T.Terraced houses total]                    -0.1569      0.005    -30.326      0.000      -0.167      -0.147
+year                                                          0.0149      0.000     42.005      0.000       0.014       0.016
+==============================================================================
+Omnibus:                     2292.063   Durbin-Watson:                   0.746
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            12803.802
+Skew:                           0.081   Prob(JB):                         0.00
+Kurtosis:                       6.180   Cond. No.                     9.34e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 9.34e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
